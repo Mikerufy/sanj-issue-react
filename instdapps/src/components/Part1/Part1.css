@@ -3,7 +3,37 @@
     font-size: 4rem !important;
 }
 .defi{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 4rem !important;
+    font-family: 'Montserrat', sans-serif;
     color: #386ef7;
 }
+.desc{
+    line-height: 1.75rem;
+    font-family: 'Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji';
+}
+@media screen and (max-width: 800px){
+    .building {
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 2.5rem !important;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .defi{
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 2.5rem !important;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .desc{
+        text-align: center;
+        color: rgba(107,114,128,var(--text-opacity));
+    }
+}
+/*
+@media screen and (min-width:0px) and (max-width : 767px){
+    .part1 {
+        text-align: center;
+        font-size: 2.5rem !important;
+        line-height: 2.5rem;
+    }
+} */
+

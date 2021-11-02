@@ -9,6 +9,9 @@ const Parent = () => {
         <div style={{
             backgroundImage: "url('https://instadapp.io/images/circles.svg')",
             backgroundRepeat:'no-repeat',
+            display:"flex",
+            flexDirection:"column",
+            justifyContent: "center",
         }}>
             
         <NewPart1/>

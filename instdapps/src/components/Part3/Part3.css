@@ -1,0 +1,6 @@
+.info{
+    --text-opacity: 1;
+    color: rgba(158,164,184,var(--text-opacity));
+    text-align: left;
+    line-height: 1.75rem;
+}

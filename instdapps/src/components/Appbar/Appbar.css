@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px){
+    .nav-buttons{
+       display: none !important;
+    }
+    .nav-img{
+        margin-top:2rem;
+    }
+}
