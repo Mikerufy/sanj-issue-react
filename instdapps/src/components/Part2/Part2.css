@@ -1,6 +1,9 @@
 .info{
     font-size: 1.5rem !important;
-    color: #A5ADC1;
+    --text-opacity: 1;
+    color: rgba(165,173,198,var(--text-opacity));
+    text-align: center;
+    line-height: 1;
 }
 .dollar{
     font-family: 'Montserrat', sans-serif !important;
