@@ -6,15 +6,15 @@ import Button from "@mui/material/Button";
 import "./Part2.css";
 const Part2 = () => {
     return ( 
-        <Grid container>
-            <Grid item md={3}></Grid>
-            <Grid item md={6}>
+        <Grid container className = "p2-container">
+            <Grid item xs={0} md={3}></Grid>
+            <Grid item xs={12} md={6}>
                 <Grid container direction = "column">
-                    <Grid item><Typography className="info">Total Value Locked</Typography></Grid>
-                    <Grid item><Typography className="dollar">$12,167,766,418</Typography></Grid>
+                    <Grid item><Typography className="p2-info">Total Value Locked</Typography></Grid>
+                    <Grid item><div className="p2-spin"></div></Grid>
                 </Grid>
             </Grid>
-            <Grid item md={3}></Grid>
+            <Grid item xs={0} md={3}></Grid>
         </Grid>
     );
 }

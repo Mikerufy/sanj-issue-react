@@ -12,15 +12,15 @@
     --text-opacity: 1;
     color: rgba(107,114,128,var(--text-opacity));
     max-width: 36rem;
-    margin-top: 2rem;
+    margin-top: 2rem !important;
     font-size: 1.125rem;
     text-align: left;
 }
 .p1-but{
     --text-opacity: 1;
     color: rgba(255,255,255,var(--text-opacity)) !important;
-    padding-left: 2.5rem!important;
-    padding-right: 2.5rem!important;
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
     height: 3rem!important;
     font-weight: 600!important;
     justify-content: center!important;
@@ -30,6 +30,9 @@
     border-color: transparent!important;
     --bg-opacity: 1!important;
     background-color: rgba(63,117,255,var(--bg-opacity)) !important;
+}
+.p1-but-div{
+    margin-top: 2rem ;
 }
 
 
@@ -49,9 +52,16 @@
     .desc{
         text-align: center;
         color: rgba(107,114,128,var(--text-opacity));
+        margin-top: 2rem !important;
     }
     .p1-but{
         width : 100%;
+    }
+    .p1-img{
+        width : 100%
+    }
+    .p1-but-div{
+        margin-top: 3rem ;
     }
 }
 /*

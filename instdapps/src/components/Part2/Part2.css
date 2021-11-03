@@ -1,12 +1,32 @@
-.info{
+.p2-info{
     font-size: 1.5rem !important;
     --text-opacity: 1;
     color: rgba(165,173,198,var(--text-opacity));
-    text-align: center;
+    text-align: center !important;
     line-height: 1;
 }
 .dollar{
     font-family: 'Montserrat', sans-serif !important;
     color: #386ef7;
     font-size: 4rem !important;
+}
+.p2-container{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.p2-spin {
+    animation: spin 1s linear infinite;
+    width: 3rem !important;
+    height: 3rem !important;
+    border-top-width: 4px !important;
+    border-radius: 9999px !important;
+    --border-opacity: 1 !important;
+    border-color: rgba(255,220,151,var(--border-opacity)) !important;  
+    box-sizing: border-box !important;
+    border: 0 solid #e2e8f0 !important; 
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
 }

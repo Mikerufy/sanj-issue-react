@@ -1,6 +1,25 @@
 .info{
     --text-opacity: 1;
     color: rgba(158,164,184,var(--text-opacity));
-    text-align: left;
-    line-height: 1.75rem;
+    text-align: left !important;
+    line-height: 1.75rem !important; 
+    --space-y-reverse: 0 !important;
+    margin-top: calc(0.75rem*(1 - var(--space-y-reverse))) !important;
+    margin-bottom: calc(0.75rem*var(--space-y-reverse)) !important;
+}
+.three{
+    padding: 1rem !important;
+}
+.p3-title{
+    --space-y-reverse: 0;
+    margin-top: calc(0.75rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0.75rem*var(--space-y-reverse));
+}
+.p3-container{
+    padding-bottom: 8rem;
+}
+@media screen and (max-width:800px){
+    .p3-div{
+        margin-bottom: 1rem ;
+    }
 }
