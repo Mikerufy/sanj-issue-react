@@ -2,7 +2,6 @@ import * as React from "react";
 import { Grid, Typography } from "@mui/material";
 import Part1img from "../../images/Part1.png";
 import { makeStyles } from "@mui/styles";
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import Button from "@mui/material/Button";
 import "./Part1.css";
 

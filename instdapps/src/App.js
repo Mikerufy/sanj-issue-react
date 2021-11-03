@@ -5,24 +5,23 @@ import Appbar from "./components/Appbar/Appbar";
 import Part1 from './components/Part1/Part1';
 import NewPart1 from './components/Part1/NewPart1';
 import { makeStyles } from "@mui/styles";
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Parent from './components/Parent/Parent';
 
 
 function App() {
   return (
     <div className="App">
-      <Grid container direction = "column">
-        <Grid item xs = {12}>
+      <Grid container >
+        <Grid item xs={12} md = {12}>
           <Appbar/>
         </Grid>
-        <Grid item xs={12} container>
-          <Grid item xs={2}></Grid>
-          <Grid item xs={8}>
+        <Grid item xs={12} md={12} container >
+          <Grid item xs = {0} md={2}></Grid>
+          <Grid item xs = {12} md={8}>
           <Parent/>
             
           </Grid>
-          <Grid item xs={2}></Grid>
+          <Grid item xs = {0} md={2}></Grid>
         </Grid>
       </Grid>
     </div>

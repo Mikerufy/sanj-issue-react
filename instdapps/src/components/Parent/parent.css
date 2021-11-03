@@ -1,0 +1,10 @@
+@media screen and (min-width : 800px){
+    .parent{
+        background-image: "url('https://instadapp.io/images/circles.svg')" ;
+        background-repeat:'no-repeat';
+        display:"flex";
+        flex-direction:"column";
+        text-align: "center";
+        padding-top: "2rem";
+    }   
+}
